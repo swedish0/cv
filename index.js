@@ -112,7 +112,7 @@ const mobil1 = document.getElementById('mobil');
 const hometab = document.getElementById('home-tab');
 const profiletab = document.getElementById('profile-tab');
 const contacttab = document.getElementById('contact-tab');
-const vmi = document.getElementById('vmi');
+const vmi = document.getElementById('reach');
 
 toggle.addEventListener('click', function(){
   toggle1.classList.toggle('bi-brightness-high-fill');

@@ -1,8 +1,7 @@
 input[type="checkbox"].toggle {
   opacity: 0;
   position: absolute;
-  left: -9000px;
-  top: -9000px;
+
 }
 
 input[type="checkbox"].toggle + label {
@@ -35,7 +34,7 @@ input[type="checkbox"].toggle + label::after {
   left: .2em;
   width: 1.8em;
   height: 1.8em;
-  background-color: hsl(64, 90%, 54%);
+  background-color: hsl(46, 90%, 54%);
   color: white;
   border-radius: 1em;
   transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
