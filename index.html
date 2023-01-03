@@ -9,12 +9,16 @@ rel="stylesheet"
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.1">
     <title>CV - Resume</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script type="text/javascript" src="index.js"></script>
     <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" media="print" href="print.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <script type="module" src="index.js"></script>
     <style>
       .button {   }
       i{
@@ -112,11 +116,11 @@ rel="stylesheet"
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9 pb-3">Új bankkártyás rendszer bevezetése - Card Suite</div>
+          <div class="col-lg-9 pb-3 lang" key="otp2"></div>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li> Modulok: Billwriter, Reporting Assistant, Partion organizer, IO Manager, Data mart synchronization, Data transfer to DWH </li></div>
+          <div class="col-lg-9 lang" key="otp3"><li></li></div>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
@@ -124,17 +128,17 @@ rel="stylesheet"
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>Prometheus & Grafana - metrics</li></div>
+          <div class="col-lg-9 lang" key="otp4"><li></li></div>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>PGP4 - GPG - Encrypted </li></div>
+          <div class="col-lg-9 lang" key="otp5"><li></li></div>
         </div>  
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>Python fejlesztése - replacer, quering from database</li></div>
+          <div class="col-lg-9 lang" key="otp6"><li></li></div>
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>Egyéb </li></div>
+          <div class="col-lg-9 lang" key="otp7"><li></li></div>
         </div>
       </div>
 
@@ -155,19 +159,19 @@ rel="stylesheet"
      
       <div class="row">
         <div class="col-lg-3 pt-2">2020 - 2021</div>
-        <div class="col-lg-9 py-2">MKB Bank – Rendszerszervező – Vállalati Elektronikus csatorna és CRM rendszerek</div>
+        <div class="col-lg-9 py-2 lang" key="mkb1"></div>
       </div>
       <div class="row">
         <div class="col-lg-3"></div>
-        <div class="col-lg-9">CRM – Microsoft Dynamics AX – ügyintézői Frontend</div>
+        <div class="col-lg-9 lang" key="mkb2"></div>
       </div>
       <div class="row">
         <div class="col-lg-3"></div>
-        <div class="col-lg-9">Linistry – Felhő alapú sorszámhúzó, ügyfélhívó, időpontfogalaló rendszer</div>
+        <div class="col-lg-9 lang" key="mkb3"></div>
       </div>
       <div class="row">
         <div class="col-lg-3"></div>
-        <div class="col-lg-9">Voice Analytics</div>
+        <div class="col-lg-9 lang" key="mkb4"></div>
       </div>
   </div>
 
@@ -182,19 +186,19 @@ rel="stylesheet"
     </div> 
     <div class="row">
       <div class="col-lg-3 pt-2">2019 - 2020</div>
-      <div class="col-lg-9 py-2">Erste Bank – Rendszerszervező – Rendszertámogatás osztály</div>
+      <div class="col-lg-9 py-2 lang" key="erste1"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">ProcDigi - Biometrikus aláírás bevezetésének támogatása</div>
+      <div class="col-lg-9 lang" key="erste2"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">PAD - Kivonatok gyártása</div>
+      <div class="col-lg-9 lang" key="erste3"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">MNBINF16 megfelelés - Intellinx - fraud monitoring systems</div>
+      <div class="col-lg-9 lang" key="erste4"></div>
     </div>
   </div>
 
@@ -209,27 +213,27 @@ rel="stylesheet"
     </div>     
     <div class="row">
       <div class="col-lg-3 pt-2">2017 – 2019</div>
-      <div class="col-lg-9 py-2">K&H Bank – Rendszerszervező – Front-end és integrált alkalmazások csoport</div>
+      <div class="col-lg-9 py-2 lang" key="kh1"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">PSD2 – Push Notification Sender, Sandbox – alkalmazástervezése</div>
+      <div class="col-lg-9 lang" key="kh2"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">GDPR – dokumentumok anonimizálása és törlése</div>
+      <div class="col-lg-9 lang" key="kh3"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">MIFID – dokumentumok kivezetése elektronikus csatornákra</div>
+      <div class="col-lg-9 lang" key="kh4"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">ePosta – elektronikus dokumentumkezelő rendszer szervezése</div>
+      <div class="col-lg-9 lang" key="kh5"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">Kivonatbetöltő alkalmazás továbbfejlesztése</div>
+      <div class="col-lg-9 lang" key="kh6"></div>
     </div>
   </div>
 
@@ -245,23 +249,23 @@ rel="stylesheet"
     </div>     
     <div class="row">
       <div class="col-lg-3 pt-2">2016 – 2017</div>
-      <div class="col-lg-9 py-2">Raiffeisen Bank – Rendszerszervező – e-Channel csoport</div>
+      <div class="col-lg-9 py-2 lang" key="rafi1"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">Tesztautomatizálás – Selenium</div>
+      <div class="col-lg-9 lang" key="rafi2"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">Scolvo FWR - Kapcsolattartás a beszállítókkal</div>
+      <div class="col-lg-9 lang" key="rafi3"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">Behajtási folyamat tervezés</div>
+      <div class="col-lg-9 lang" key="rafi4"></div>
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9">Webchat update</div>
+      <div class="col-lg-9 lang" key="rafi5"></div>
     </div>
   </div>
   <h5 class="pt-5 pb-5"></h5>
@@ -278,55 +282,55 @@ rel="stylesheet"
 
       <!-- Technológiai ismeretek -->
       <div class="container" style="width: 800px;">
-        <h5 class="pt-5 pb-5">Technológiai ismeretek</h5>
+        <h5 class="pt-5 pb-5 lang" key="other0"></h5>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>UML, BPMN, Enterprise Architect, UMLet</li></div>
+          <div class="col-lg-9">▪ UML, BPMN, Enterprise Architect, UMLet</div>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>MQ Explorer, Postman, SoapUI</li></div>
+          <div class="col-lg-9">▪ MQ Explorer, Postman, SoapUI</div>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>Oracle SQL, Postgres, PL/SQL developer</li></div>
+          <div class="col-lg-9">▪ Oracle SQL, Postgres, PL/SQL developer</div>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>Java SE alapok, Eclipse, Netbeans, Intellij</li></div>
+          <div class="col-lg-9">▪ Java SE alapok, Eclipse, Netbeans, Intellij</div>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"> <li>Notepad++, Atom, VSC</li></div>
+          <div class="col-lg-9">▪ Notepad++, Atom, VSC</div>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>Confluence, Sharepoint, JIRA</li>
+          <div class="col-lg-9">▪ Confluence, Sharepoint, JIRA</div>
         </div>
         <div class="row">
           <div class="col-lg-3"></div>
-          <div class="col-lg-9"><li>Szoftverfejlesztési módszertanok ismerete, Programozási paradigmák ismerete</li></div>
+          <div class="col-lg-9 lang" key="other1"><li></li></div>
         </div>
-        <h5 class="pt-5 pb-5">Képzések</h5>
+        <h5 class="pt-5 pb-5 lang" key="other2"></h5>
         <div class="row">
           <div class="col-lg-3">2020</div>
-          <div class="col-lg-9"><li>The Complete 2020 Web Development Bootcamp</li></div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3">2020</div>
-          <div class="col-lg-9"><li>Docker tanfolyam</li></div>
+          <div class="col-lg-9">▪ The Complete 2020 Web Development Bootcamp</div>
         </div>
         <div class="row">
           <div class="col-lg-3">2020</div>
-          <div class="col-lg-9"><li>DevOps képzés</li></div>
+          <div class="col-lg-9 lang" key="other3"><li></li></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">2020</div>
+          <div class="col-lg-9 lang" key="other4"><li></li></div>
         </div>
         <div class="row">
           <div class="col-lg-3">2019</div>
-          <div class="col-lg-9"><li>Architect Enterprise Applications with Java EE tanfolyam, Oracle</li></div>
+          <div class="col-lg-9">▪ Architect Enterprise Applications with Java EE tanfolyam, Oracle</div>
         </div>
         <div class="row">
           <div class="col-lg-3">2018</div>
-          <div class="col-lg-9"><li>Test Automation with Selenium Framework, Masterfield Training</li></div>
+          <div class="col-lg-9">▪ Test Automation with Selenium Framework, Masterfield Training</div>
         </div>
         <h5 class="pt-5 pb-5"></h5>
         </div>
@@ -338,43 +342,43 @@ rel="stylesheet"
 <div class="container" style="width: 800px;">
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-    <h5 class="pt-5 pb-5">Tanulmányok</h5>
+    <h5 class="pt-5 pb-5 lang" key="study1"></h5>
     <div class="row">
       <div class="col-lg-3 pt-2">2022 – </div>
-      <div class="col-lg-9 py-2">▪ Verebély László: Villanyszerelő szak[407130407]</div>
+      <div class="col-lg-9 py-2 lang" key="study2"></div>
     </div>
     <div class="row">
       <div class="col-lg-3 pt-2">2013 – 2017</div>
-      <div class="col-lg-9 py-2">▪ PTE-TTK: Gazdaságinformatikus Bsc</div>
+      <div class="col-lg-9 py-2 lang" key="study3"></div>
     </div>
     <div class="row">
       <div class="col-lg-3 pt-2">2009 – 2013</div>
-      <div class="col-lg-9 py-2">▪ ZSKF: Nemzetközi gazdálkodás Ba</div>
+      <div class="col-lg-9 py-2 lang" key="study4"></div>
     </div>
     <div class="row">
       <div class="col-lg-3 pt-2">2007 – 2009</div>
-      <div class="col-lg-9 py-2">▪ Perfekt: Banki szakügyintéző</div>
+      <div class="col-lg-9 py-2 lang" key="study5"></div>
     </div>
 
         <!-- PAGE BREAK  -->
         <div class="html2pdf__page-break"></div>
         <!-- PAGE BREAK  -->
-
-    <h5 class="pt-5 pb-5">Nyelvtudás</h5>
+    <!-- TANULMÁNYOK & NYELVTUDÁS  -->
+    <h5 class="pt-5 pb-5 lang" key="study6"></h5>
     <div class="row">
       <div class="col-lg-3 pt-2">2008</div>
-      <div class="col-lg-9 py-2">▪ Angol: középfokú „C” típusú állami nyelvvizsga</div>
+      <div class="col-lg-9 py-2 lang" key="study7"></div>
     </div>
     <div class="row">
       <div class="col-lg-3 pt-2"></div>
-      <div class="col-lg-9 py-2">▪ Német: alapfokú ismeretek</div>
+      <div class="col-lg-9 py-2 lang" key="study8"></div>
     </div>
-    <h5 class="pt-5 pb-5">Egyéb ismeretek</h5>
+    <h5 class="pt-5 pb-5 lang" key="study9"></h5>
     <div class="row">
-      <div class="col-lg-3 pt-2">Jogosítvány</div>
-      <div class="col-lg-9 py-2">2009 - "B" kategóriás jogosítvány</div>
+      <div class="col-lg-3 pt-2 lang" key="study10"></div>
+      <div class="col-lg-9 py-2 lang" key="study11"></div>
       <div class="col-lg-3 pt-2"></div>
-      <div class="col-lg-9 py-2">2015 - "C" kategóriás jogosítvány (teherautó)</div>
+      <div class="col-lg-9 py-2 lang" key="study12"></div>
     </div>
     <h5 class="pt-5 pb-5"></h5>
   </div>
@@ -396,7 +400,7 @@ rel="stylesheet"
     </div>
     <div class="row">
       <div class="col-lg-3"></div>
-      <div class="col-lg-9"><li >Lakcím: <span id="mobil" onclick="mobil()">1033, Budapest, Szőlő u 86.</span></li></div>
+      <div class="col-lg-9"><li>Lakcím: <span id="mobil" onclick="mobil()">1033, Budapest, Szőlő u 86.</span></li></div>
     </div>
     <div class="row mb-5">
       <div class="col-lg-3"></div>
@@ -410,6 +414,6 @@ rel="stylesheet"
 </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   
-  <script type="module" src="index.js"></script>
+  <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
