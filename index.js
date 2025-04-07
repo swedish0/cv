@@ -55,6 +55,9 @@ var arrLang = {
     "study12": "2015 - 'C' kategóriás jogosítvány (teherautó)",
     "address1": "Lakcím:",
     "address2": "1033, Budapest, Szőlő u 86.",
+	"mak1": "Költségvetési alkalmazás",
+	"mak2": "Integrált könyvviteli Alkalmazás",
+	"mak3": "ESB - Enterprise Service Bus",
 
   },
   "en": {
@@ -113,6 +116,9 @@ var arrLang = {
     "study12": "2015 - 'C' category driver's license (truck)",
     "address1": "Address:",
     "address2": "Szőlő street 86. ,Budapest",
+	"mak1": "Budget application",
+	"mak2": "Integrated accounting Application",
+	"mak3": "ESB - Enterprise Service Bus",	
 
   }
 };
